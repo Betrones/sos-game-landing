@@ -1,7 +1,8 @@
 :root{
 	--c-white: #fff;
-	--c-orange-gradient: linear-gradient(183.46deg, #FFB548 11.27%, #F3AF34 90.4%);
+	--c-orange-gradient: linear-gradient(#FFB548, #F3AF34);
 	--c-black: #000;
-	--c-lgrey: #8b8c8c;
-	--c-dgrey: #191a1a;
+	--c-lgrey: rgba(255, 255, 255, 0.8);
+	--c-dgrey: rgba(255, 255, 255, 0.2);
+	--c-orange: #FFB548;
 }
