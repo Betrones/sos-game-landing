@@ -1,0 +1,147 @@
+.hero{
+	background: url(../img/bg1.jpg);
+	justify-content: space-between;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 50px;
+}
+
+.header__logo{
+	width: 55px;
+	height: 55px;
+}
+
+.header__partner{
+	width: 30px;
+	height: 30px;
+	margin-left: 25px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.nav__link{
+	margin-right: 32px;
+	text-transform: uppercase;
+}
+
+.header__options{
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header__lang{
+	padding-right: 18px;
+	border-right: 1px var(--c-lgrey) solid;
+	position: relative;
+}
+
+.button{
+	margin: 10px;
+	padding: 17px;
+	background: var(--c-orange-gradient);
+	color: #000;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.button__buy{
+	padding-right: 13px;
+	border-right: 1px #1A191788 solid;
+}
+
+.arrow{
+	transform: rotate(315deg);
+	width: 4px;
+	height: 4px;
+	border-bottom: 1.4px solid #FFFFFF;;
+	border-left: 1.4px solid #FFFFFF;
+	position: absolute;
+	right: 7px;
+	top: 4.5px;
+}
+
+.scrolldown{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.scroll-down__img{
+	width: 20px;
+}
+
+.scroll-down{
+	padding-bottom: 12px;
+}
+
+@media screen and (max-width: 1023px){
+	nav{
+		display: none;
+	}
+	.burgers{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-left: 20px;
+	}
+
+	.burger{
+		color: var(--c-white);
+		width: 23.5px;
+		height: 2.5px;
+		border: 3px;
+		margin-bottom: 5px;
+		border-bottom: 1.5px #fff solid;
+	}
+
+	.burger:last-child{
+		margin-bottom: 0;
+		width: 14.5px;
+	}
+
+	.header__partner{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.header__partners{
+		display: none;
+	}
+
+	
+
+	h1, h2{
+		font-size: 33px;
+	}
+
+	h3{
+		font-size: 18px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	.button{
+		padding: 13px;
+		font-size: 14px;
+	}
+}

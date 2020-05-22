@@ -8,10 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/typography.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/section.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/hero.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-	<section>
+	<section class="-hero hero">
 		<div class="container">
 			<header class="header">
 				<img src="./assets/img/logo.png" class="header__logo">
@@ -23,10 +26,15 @@
 					<a href="#" class="nav__link">quotes</a>
 				</nav>
 				<div class="header__options">
-					<div class="header__lang">eng<i></i></div>
+					<div class="header__lang">eng<i class="arrow"></i></div>
 					<div class="header__partners">
-						<a class="header__partner"><img src="./assets/img/" alt=""></a>
-						<a class="header__partner"></a>
+						<a class="header__partner"><img src="./assets/img/steam.png" alt=""></a>
+						<a class="header__partner"><img src="./assets/img/box.png" alt=""></a>
+					</div>
+					<div class="burgers">
+							<i class="burger"> </i>
+							<i class="burger"> </i>
+							<i class="burger"> </i>
 					</div>
 				</div>
 			</header>
@@ -35,14 +43,17 @@
 			<div class="content">
 				<h1 class="title">survive at all costs</h1>
 				<h3 class="subtitle">Experience new social battle royale game</h3>
-				<a href="http://store.steampowered.com" class="button">
+				<a href="https://store.steampowered.com/app/619080/SOS/" class="button">
 					<span class="button__buy">Buy Now on Steam</span>
-					<span class="button__price">-15.99</span>
+					<span class="button__price">$15.99</span>
 				</a>
 			</div>
 		</div>
 
-		<div class="scroll-down">the story</div>
+		<div class="scrolldown">
+			<div class="scroll-down">the story</div>
+			<img class="scroll-down__img" src="./assets/img/scrol.png" alt="">
+		</div>
 	</section>
 </body>
 </html>
