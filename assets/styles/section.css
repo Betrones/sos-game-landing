@@ -8,3 +8,7 @@ section{
 	background-position: center;
 	flex-direction: column;
 }
+
+div{
+	background-repeat: no-repeat;
+}
