@@ -93,4 +93,8 @@
 		width: 196px;
 		height: 229px;
 	}*/
+
+	.about__line{
+		display: none;
+	}
 }
