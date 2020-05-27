@@ -60,10 +60,10 @@
 }
 
 @media screen and (max-width: 767px){
-	/*.quotes{
+	.quotes{
 		display: none; 
 	}
-*/
+
 	.press{
 		display: block;
 	}
