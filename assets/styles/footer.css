@@ -1,0 +1,18 @@
+.footer__up, .footer__copyright{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__up{
+	border-bottom: 1px #ffffff80 solid;
+	padding-bottom: 30px;
+
+}
+
+.footer__copyright{
+	margin: 22px 0;
+}
+
+
+

@@ -1,0 +1,31 @@
+.email.-sub{
+	display: flex;
+	align-items: center;
+}
+
+.sub{
+	width: 55%;
+}
+
+.container.-sub{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button.-sub{
+	padding: 25px;
+	border-radius: 5px;
+}
+
+.enter.-sub.quote{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 767px){
+	.sub{
+		width: 100%;
+	}
+}
