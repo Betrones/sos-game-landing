@@ -26,6 +26,42 @@
 
 @media screen and (max-width: 767px){
 	.sub{
+		display: flex;
+		align-items: flex-end;
+		flex-direction: column;
 		width: 100%;
+	}
+
+	.name.-sub{
+		width: 65%;
+	}
+
+	.email.-sub{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.enter.-sub.quote{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.email__text{
+		font-size: 14px;
+	}
+
+	.quote__position{
+		font-size: 12px;
+	}
+
+	.button.-sub{
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+		padding: 13px;
+	}
+
+	.text.-sub{
+		width: 65%;
 	}
 }
