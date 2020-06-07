@@ -1,0 +1,34 @@
+.cell.-req{
+	border: 1px var(--c-dgrey) solid;
+	margin: 0;
+	height: 125px;
+	width: 285px;
+	padding: 15px 10px;
+}
+
+.req__table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.content.-req{
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.name.-req{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.table__name{
+	color: var(--c-orange);
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 2px;
+}
