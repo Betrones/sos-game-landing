@@ -1,3 +1,7 @@
+.req{
+	background-image: url(../img/bg4.png);
+}
+
 .cell.-req{
 	border: 1px var(--c-dgrey) solid;
 	margin: 0;

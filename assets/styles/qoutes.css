@@ -1,3 +1,7 @@
+.quotes{
+	background-image: url(../img/bg5.png);
+}
+
 .text.-quotes{
 	margin: 50px 0;
 	max-width: 435px;
@@ -59,16 +63,6 @@
 	margin-right: 30px;
 }
 
-@media screen and (max-width: 767px){
-	.quotes{
-		display: none; 
-	}
-
-	.press{
-		display: block;
-	}
-}
-
 @media screen and (max-width: 1023px) {
 	.text.-quotes{
 		margin-right: 10px;
@@ -81,8 +75,37 @@
 	.quote:nth-child(3){
     	margin-right: 25px;
 	}
+}
 
-	.title.-quotes{
-		letter-spacing: 1px;
+@media screen and (max-width: 767px){
+	/*.quotes{
+		display: none; 
+	}
+
+	.press{
+		display: block;
+	}*/
+
+	.quote__info{
+		flex-direction: column;
+	}
+
+	.quote__content{
+		width: 100%;
+	}
+
+	.press{
+		width: 100%;
+	}
+
+	.quote:nth-child(3),.quote:nth-child(2){
+		margin-right: 0;
+	}
+
+	.button.-quotes{
+		padding: 13px 50px;
+		font-family: Open Sans;
+		font-weight: bold;
+		font-size: 14px;
 	}
 }
