@@ -68,3 +68,21 @@
 		display: block;
 	}
 }
+
+@media screen and (max-width: 1023px) {
+	.text.-quotes{
+		margin-right: 10px;
+	}
+
+	.quote:nth-child(2){
+    	margin-right: 50px;
+	}
+
+	.quote:nth-child(3){
+    	margin-right: 25px;
+	}
+
+	.title.-quotes{
+		letter-spacing: 1px;
+	}
+}

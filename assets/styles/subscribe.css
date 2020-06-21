@@ -24,6 +24,16 @@
 	border-radius: 5px;
 }
 
+@media screen and (max-width: 1023px){
+	.sub{
+		width: 70%;
+	}
+
+	.button.-sub{
+		padding: 15px;
+	}
+}
+
 @media screen and (max-width: 767px){
 	.sub{
 		display: flex;
@@ -68,6 +78,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 767px){
 	.email.-sub{
-		display: none;
+		/*display: none;*/
 	}
 }
+

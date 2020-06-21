@@ -14,7 +14,6 @@
 
 .text.-about{
 	width: 70%;
-
 }
 
 .about__line{
@@ -66,6 +65,34 @@
 	}
 }*/
 
+@media screen and (max-width: 1023px){
+	.about__pic:first-child{
+		width: 300px;
+	}
+
+	.about__pic:nth-child(2){
+		width: 262px;
+		top: 10px;
+		right: 0px;
+	}
+
+	.about__pic:last-child{
+		width: 262px;
+		top: 25px;
+		right: -10px;
+	}
+
+	.about__text{
+		width: 60%;
+		margin-right: 0;
+	}
+
+	.text.-about{
+		width: 85%;
+		margin-right: 10px;
+	}
+}
+
 @media screen and (max-width: 767px){
 	.-about.-flex{
 		flex-direction: column;
@@ -105,3 +132,5 @@
 		display: none;
 	}
 }
+
+
