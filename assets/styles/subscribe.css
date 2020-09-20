@@ -7,6 +7,10 @@
 	width: 55%;
 }
 
+.subscribe{
+	background-image: url(../img/bg6.png);
+}
+
 .container.-sub{
 	display: flex;
 	justify-content: flex-end;
@@ -29,8 +33,8 @@
 		width: 70%;
 	}
 
-	.button.-sub{
-		padding: 15px;
+	.email__text{
+		font-size: 16px;
 	}
 }
 
